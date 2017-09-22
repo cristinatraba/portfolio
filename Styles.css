@@ -1,0 +1,301 @@
+@font-face {
+    font-family: Circular;
+    src: url(fonts/lineto-circular-pro-bold.ttf);
+    font-family: Playfair;
+    src: url(fonts/PlayfairDisplay-Bold.ttf);
+}
+
+*{
+  margin: 0 auto;
+}
+body{
+  color: black;
+  font-family: Circular;
+  background-color: #white;
+}
+h1{
+  font-size: 120px;
+  font-family:Playfair;
+  color: black;
+}
+h2 {
+  font-family: Playfair;
+  font-weight: lighter;
+}
+h3 {
+  font-size: 50px;
+  font-family: Playfair;
+}
+h4 {
+  font-family: Playfair;
+  color: gray;
+}
+h5 {
+  font-family: Playfair;
+
+  font-size: 10px;
+}
+p{
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 18px;
+
+  color: black;
+}
+
+
+.top {
+  width: 90%;
+  height: auto;
+  background-color: white;
+  margin: 20px;
+
+}
+
+.texto {
+  position: absolute;
+  right:17%;
+  text-align: left;
+  padding-top: 25%;
+}
+.texto2{
+  position: absolute;
+  left:7%;
+  text-align: left;
+  padding-top: 4%;
+}
+.body {
+ width: 100%;
+ height: 1000px;
+ padding-top: auto;
+}
+.gallery{
+  width: 70%;
+  position: absolute;
+  left:15%;
+
+}
+.card {
+  float: left;
+  width: 26%;
+  height: auto;
+  margin-left: 5%;
+  background-color: white;
+  box-shadow: 10px 10px;
+  margin-bottom: 50px;
+}
+.pic{
+  width: 100%;
+}
+.img {
+  width: 100%;
+  box-shadow: 0px 0px 20px #f4f4f4;
+}
+.p2 {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.textobajopic {
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 90%;
+}
+.proyectos{
+
+  width: 70%;
+
+
+}
+.body2 {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  background-color: white;
+
+}
+.hi{
+  padding-right: : 10px;
+  border: 0px;
+  border-radius: 0px;
+  background-color: white;
+  box-shadow: 0px 0px 20px lightgray;
+  margin-top: 50px;
+
+}
+.colum{
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom:  30px;
+}
+.section1{
+  width: 80%;
+  height: auto;
+  background-image: url(imagenes/8db70beef11ff461cff22c6dd30f919f.jpg);
+  padding-bottom: 70px;
+}
+.whitetext{
+  color: white;
+  text-align: center;
+}
+.black {
+  color: white;
+  padding: 10px;
+}
+.social {
+  text-align: center;
+  padding: 20px;
+}
+.mail{
+ color: white;
+ font-family: helvetica;
+ text-align: center;
+ margin-top: 0px;
+
+
+
+}
+.encogido{
+  width: 80%;
+  margin-left: 10%;
+}
+.latest{
+ font-family: Playfair;
+ width: 100px;
+
+ padding-left: 5%;
+ font-size: 4vw;
+ padding-top: 5%;
+ position: absolute;left: 10px;
+ z-index: 20;
+}
+.thisis {
+  font-family: Playfair;
+
+  text-align: left;
+  margin-left: 10px;
+}
+#fotoperfil {
+  width: 60%;
+  margin:20px;
+}
+#hello {
+  font-size: 10vw;
+}
+#name {
+  font-size: 3.5vw;
+  font-weight: lighter;
+  margin-top: -10px;
+}
+#description {
+  margin-top: 10px;
+  text-align: left;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  box-shadow:10px 10px #EAFF00;
+}
+#contact {
+  font-size: 3.5vw;
+  padding-top: 10%;
+  width: 50%;
+  font-size: 3.5vw;
+  padding-top: 10%;
+  padding-bottom: 5px;
+  box-shadow: 0px 5px #EAFF00;
+
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+
+.item {
+
+	width: 100%;
+}
+
+@media only screen
+and (max-device-width : 667px)
+and (orientation : portrait) {
+
+  p{
+    font-size: 16px;
+  }
+
+  #fotoperfil {
+    width: 100%;
+    margin: 0px;
+}
+
+.proyectos {
+    width: 90%;
+}
+
+.body2{
+  margin: 0px;
+}
+
+.colum{
+  padding: 0px;
+}
+
+.top{
+  margin: 5%;
+}
+.latest {
+  font-size: 8vw;
+  position: absolute;
+  left: 23px;
+
+}
+.texto2 {
+    position: absolute;
+    left: 1%;
+    text-align: left;
+    padding-top: 0px;
+}
+.texto {
+    position: absolute;
+    left: 10%;
+    text-align: left;
+    padding-top: 5%;
+
+}
+#description {
+    margin-top: 10px;
+    text-align: left;
+    width: 45%;
+    height: auto;
+    position: absolute;
+    box-shadow: 10px 10px #EAFF00;
+}
+#hello {
+      margin-top: 0px;
+}
+.section1{
+  width: 97%;
+  height: auto;
+  background-image: url(imagenes/8db70beef11ff461cff22c6dd30f919f.jpg);
+  padding-bottom: 20px;
+}
+#contact {
+    font-size: 6vw;
+    padding-top: 10%;
+    width: 70%;
+}
+.social {
+  padding: 10px;
+}
+.encogido {
+  width: 100%;
+  margin-left: 0%;
+
+}
+}
