@@ -312,7 +312,6 @@ and (orientation : portrait) {
 .section1{
   width: 97%;
   height: auto;
-  background-image: url(../imagenes/4.jpg);
   padding-bottom: 20px;
 }
 
