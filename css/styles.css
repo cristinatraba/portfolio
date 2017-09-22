@@ -63,7 +63,9 @@ p{
   position: absolute;
   left:7%;
   text-align: left;
-  padding-top: 4%;
+  z-index: 20;
+  width: 100%;
+
 }
 .body {
  width: 100%;
@@ -115,6 +117,7 @@ p{
   height: auto;
   margin: 10px;
   background-color: white;
+
 
 }
 .hi{
@@ -180,20 +183,20 @@ p{
 }
 .latest{
  font-family: Playfair;
- width: 100px;
-
  padding-left: 5%;
  font-size: 4vw;
- padding-top: 5%;
  position: absolute;left: 30px;
  z-index: 20;
 }
 .thisis {
   font-family: Playfair;
 
+
   text-align: left;
-  margin-left: 30px;
+  margin-left: 7%;
+  margin-top: 80px;
   font-size: 4vw;
+  z-index: 20;
 }
 #fotoperfil {
   width: 60%;
@@ -265,6 +268,8 @@ and (orientation : portrait) {
 
 .body2{
   margin: 0px;
+  margin-top: 50px;
+
 }
 
 .colum{
@@ -278,6 +283,9 @@ and (orientation : portrait) {
   font-size: 8vw;
   position: absolute;
   left: 23px;
+  width: 300px;
+  padding-left: 0%;
+  padding-bottom: 30px;
 
 }
 .thisis {
@@ -328,7 +336,7 @@ and (orientation : portrait) {
 .encogido {
   width: 100%;
   margin-left: 0%;
-  margin-top: 60px;
+  margin-top: 90px;
 
 }
 }
