@@ -54,7 +54,8 @@ p{
 
 .texto {
   position: absolute;
-  right:17%;
+  right:22%;
+
   text-align: left;
   padding-top: 25%;
 }
@@ -184,14 +185,14 @@ p{
  padding-left: 5%;
  font-size: 4vw;
  padding-top: 5%;
- position: absolute;left: 10px;
+ position: absolute;left: 30px;
  z-index: 20;
 }
 .thisis {
   font-family: Playfair;
 
   text-align: left;
-  margin-left: 10px;
+  margin-left: 30px;
   font-size: 4vw;
 }
 #fotoperfil {
@@ -284,6 +285,7 @@ and (orientation : portrait) {
   position: absolute;
   left: 23px;
   width: 200px;
+  margin-left: 10px;
 }
 .texto2 {
     position: absolute;
