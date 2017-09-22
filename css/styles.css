@@ -133,7 +133,7 @@ p{
 .section1{
   width: 80%;
   height: auto;
-  background-image: url(imagenes/8db70beef11ff461cff22c6dd30f919f.jpg);
+  background-image: url(../imagenes/4.jpg);
   padding-bottom: 70px;
 }
 .whitetext{
@@ -157,9 +157,17 @@ p{
  font-family: helvetica;
  text-align: center;
  margin-top: 0px;
+ text-shadow: 3px 3px 40px black;
+}
+
+.mail:hover {
+  text-decoration: none;
+  color: gray;
 
 
-
+}
+.fa:hover {
+  color: gray;
 }
 .space{
   height: 30px;
