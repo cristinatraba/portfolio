@@ -312,9 +312,10 @@ and (orientation : portrait) {
 .section1{
   width: 97%;
   height: auto;
-  background-image: url(imagenes/8db70beef11ff461cff22c6dd30f919f.jpg);
+  background-image: url(../imagenes/4.jpg);
   padding-bottom: 20px;
 }
+
 #contact {
     font-size: 6vw;
     padding-top: 10%;
